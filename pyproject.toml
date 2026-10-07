@@ -4,10 +4,10 @@ version = "0.1.0"
 description = "Analysis of redox thermodynamic properties"
 readme = "README.md"
 authors = [
-  {name = "J Vieten, Jordan Burns, Min-Hsueh Chiu (modifier)", email = "minhsuehchiu@lbl.gov"}
+  {name = "J Vieten, Jordan Burns", email = "minhsuehchiu@lbl.gov"}
 ]
 maintainers = [
-  {name = "J Vieten, Jordan Burns, Min-Hsueh Chiu (modifier)", email = "minhsuehchiu@lbl.gov"}
+  {name = "Min-Hsueh Chiu", email = "minhsuehchiu@lbl.gov"}
 ]
 classifiers = [
     # TODO
