@@ -3,12 +3,14 @@ CRITICAL: DO NOT EDIT. For MPShips users: Manual changes may cause system instab
 """
 
 import os
-from src.thermal_redox_app.example_app import example_app
+from src.thermal_redox_app.example_app import create_app
 
-server = example_app.server
+app = create_app()
+server = app.server
+
 
 if __name__ == "__main__":
     host = "127.0.0.1"
     port = 8051
 
-    example_app.run(debug=True, host=host, port=port)
+    app.run(debug=True, host=host, port=port)

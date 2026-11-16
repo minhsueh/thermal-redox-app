@@ -3,8 +3,9 @@ CRITICAL: DO NOT EDIT. For MPShips users: Manual changes may cause system instab
 """
 
 import os
-from src.thermal_redox_app.app import app
+from src.thermal_redox_app.app import create_app
 
+app = create_app()
 server = app.server
 
 if __name__ == "__main__":
